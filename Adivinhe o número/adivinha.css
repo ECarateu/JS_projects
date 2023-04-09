@@ -1,0 +1,45 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+background-color : #FDB0C0;
+color: #4A0100;
+text-align:center;
+
+}
+
+.adivinha-box li {
+    list-style-type:none;
+    font-size: 14px;
+}
+
+.adivinha-box p {
+    font-size: 14px;
+}
+
+.adivinha-box .form-box {
+    margin-top: 60px;
+}
+.adivinha-box .form-box button {
+        height: 40px;
+        background: #FD4659;
+        border: none;
+        color: #FFF;
+        font-weight: bold;
+        border-radius: 20px;
+        width: 100px;
+
+}
+.adivinha-box #entrada-numero {
+    height: 40px;
+    border: 1px solid #fd4659;
+    border-radius: 20px;
+
+}
+.adivinha-box #entrada-numero::placeholder {
+     color: #fd4659;
+     text-align:center;
+
+}
